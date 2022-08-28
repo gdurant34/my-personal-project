@@ -1,10 +1,93 @@
-#name {
-    font-family: Verdana;
-    font-size: 50px;
-    height
-    
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+* {
+    box-sizing: boarder-box;
 }
 
-#cover-photo {
-    float: right;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+}
+
+.side-bar {
+    width: 160px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 0.6rem 0.3rem;
+    font-weight: 400;
+    transition: all ease-out 250ms;
+}
+
+nav li a:hover {
+    color: #9A4F56;
+}
+
+.main-content {
+    margin-left: 160px;
+}
+
+section {
+    background-color: #ECEDF2;
+    height: 90vh;
+    margin: 0;
+    padding: 2.5rem 4rem;
+}
+
+section:nth-of-type(2n) {
+    background-color: #F9F1F0;
+}
+
+section {
+    height: 100vh;
+}
+
+
+h1 {
+    color: #9A4F56;
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.active {
+    color:#9A4F56;
+    font-weight: 600;
+}
+
+.img-container {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.video-container {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
