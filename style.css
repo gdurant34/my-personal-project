@@ -1,3 +1,10 @@
-body {
-    background: blue;
+#name {
+    font-family: Verdana;
+    font-size: 50px;
+    height
+    
+}
+
+#cover-photo {
+    float: right;
 }
