@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
 
 * {
-    box-sizing: boarder-box;
+    box-sizing: border-box;
 }
 
 html {
@@ -49,7 +49,7 @@ nav li a:hover {
 
 section {
     background-color: #ECEDF2;
-    height: 90vh;
+    height: 100vh;
     margin: 0;
     padding: 2.5rem 4rem;
 }
@@ -58,15 +58,11 @@ section:nth-of-type(2n) {
     background-color: #F9F1F0;
 }
 
-section {
-    height: 100vh;
-}
-
-
 h1 {
     color: #9A4F56;
     font-weight: 600;
-    font-size: 80px;
+    font-size: 65px;
+    margin: 8px 0px;
 }
 
 .active {
@@ -90,4 +86,16 @@ h1 {
     margin-right: auto;
     padding-top: 16px;
     padding-bottom: 16px;
+}
+
+.image {
+    max-width: 300px;
+}
+
+.headshot {
+    max-width: 600px;
+}
+
+#videos {
+    height: fit-content;
 }
