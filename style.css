@@ -91,10 +91,12 @@ h1 {
 
 .image {
     max-width: 300px;
+    border-radius: 5%;
 }
 
 .headshot {
     max-width: 600px;
+    border-radius: 5%;
 }
 
 #videos {
